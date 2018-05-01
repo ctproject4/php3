@@ -5,7 +5,6 @@
 
     <target name="clean" unless="clean.done" description="Cleanup build artifacts">
         <delete dir="${basedir}/bin"/>
-        <delete dir="${basedir}/vendor"/>
         <delete file="${basedir}/composer.lock"/>
         <delete dir="${basedir}/build/documentation"/>
         <delete dir="${basedir}/build/logfiles"/>
